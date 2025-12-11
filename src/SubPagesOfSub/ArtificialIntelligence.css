@@ -1,0 +1,324 @@
+.artificial-intelligence-container {
+    margin-top: 90px;
+}
+
+.artificial-intelligence-bg-container {
+    width: 100%;
+    height: 300px;
+    background: radial-gradient(circle at 20% 70%, #2da9e280, transparent 45%),
+        radial-gradient(circle at 80% 30%, #000cb380, transparent 45%),
+        linear-gradient(135deg, #00141f, #001633);
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    padding: 80px;
+}
+
+.artificial-intelligence-bg-container h1 {
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.artificial-intelligence-text {
+    padding: 10px;
+    text-align: center;
+}
+
+.artificial-intelligence-text h4 {
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(20, 19, 19);
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.artificial-intelligence-tabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.artificial-intelligence-tab {
+    background-color: goldenrod;
+    color: whitesmoke;
+    padding: 20px;
+    border-radius: 20px;
+    width: fit-content;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.artificial-intelligence-tab:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.artificial-intelligence-Services {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px;
+
+}
+
+.artificial-intelligence-Services h1 {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(20, 19, 19);
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.artificial-intelligence-Services h4 {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(45, 151, 158);
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.artificial-intelligence-Services h4 span {
+    font-size: 15px;
+    color: rgb(95, 94, 94);
+    line-height: 1.6;
+    text-align: center;
+}
+
+.artificial-intelligence-applications {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px;
+
+}
+
+.artificial-intelligence-applications h1 {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(20, 19, 19);
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.artificial-intelligence-applications p {
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(120, 121, 121);
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.artificial-intelligence-application-cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.artificial-intelligence-application-cards {
+    height: 200px;
+    width: 300px;
+    border: 1px solid rgba(109, 109, 109, 0.699);
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.artificial-intelligence-application-cards h1 {
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(45, 151, 158);
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.artificial-intelligence-application-cards p {
+    font-size: 13px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(95, 94, 94);
+    line-height: 1.6;
+    text-align: center;
+}
+
+
+.artificial-intelligence-industry {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+
+}
+
+.artificial-intelligence-industry h1 {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(20, 19, 19);
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.artificial-intelligence-industry p {
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(120, 121, 121);
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.artificial-intelligence-industry-ai-solutions {
+    height: 100px;
+    width: 800px;
+    border: 1px solid rgba(109, 109, 109, 0.699);
+    padding: 10px;
+    border-radius: 15px;
+    text-align: left;
+}
+
+.artificial-intelligence-industry-ai-solutions h1 {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(45, 151, 158);
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.artificial-intelligence-industry-ai-solutions p {
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(95, 94, 94);
+    line-height: 1.6;
+}
+
+.artificial-intelligence-features-tools {
+    width: 100%;
+    margin-top: 40px;
+    gap: 30px;
+    padding: 20px;
+
+}
+
+.artificial-intelligence-features-tools h1 {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(20, 19, 19);
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.ai-tools {
+    padding: 10px;
+    border: 1px solid rgba(109, 109, 109, 0.699);
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.ai-tools h1 {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(45, 151, 158);
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.ai-tools h4 {
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(45, 151, 158);
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.ai-tools p {
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(95, 94, 94);
+    line-height: 1.6;
+}
+
+.process-container {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.step {
+  padding: 12px;
+  margin: 6px 0;
+  background: #f0f9ff;
+  border-left: 5px solid #9a9c05;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.arrow {
+  font-size: 26px;
+  color: #050505;
+  animation: bounce 1.3s infinite;
+}
+
+.loop-arrow {
+  margin-top: 10px;
+  font-size: 22px;
+  color: #20a020;
+  font-weight: bold;
+  animation: rotateLoop 2.5s linear infinite;
+}
+
+/* Animations */
+@keyframes bounce {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(6px); }
+}
+
+@keyframes rotateLoop {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(-360deg); }
+}
+
+.artificial-intelligence-contact-button{
+    margin-top: 30px;
+    padding: 15px 30px;
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.artificial-intelligence-contact-button:hover{
+    background-color: #36e600;
+}

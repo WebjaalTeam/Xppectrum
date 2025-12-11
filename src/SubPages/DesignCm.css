@@ -1,0 +1,120 @@
+.designcm-container {
+    max-width: 100%;
+    background-color: rgb(249, 252, 255);
+}
+
+.designcm-text {
+    margin-top: 90px;
+    height: 300px;
+    background: radial-gradient(circle at 20% 80%, #8e2de283, transparent 50%),
+        radial-gradient(circle at 80% 20%, #4b008283, transparent 50%),
+        linear-gradient(135deg, #20002c, #3a003d);
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    padding: 80px;
+}
+
+.designcm-text::after {
+    content: "";
+    position: absolute;
+    width: 300px;
+    height: 600px;
+    background: rgba(255, 255, 255, 0.08);
+    transform: rotate(-20deg);
+    top: -100px;
+    right: 10%;
+    border-radius: 30px;
+}
+
+.designcm-text h1 {
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: whitesmoke;
+}
+
+.designcm-text p {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(230, 230, 230);
+    margin-top: 10px;
+}
+
+.designcm-services {
+    margin-top: 20px;
+    padding: 40px;
+}
+
+.designcm-services svg {
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.designcm-services h2 {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(20, 19, 19);
+    margin-bottom: 10px;
+}
+
+.designcm-services p {
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(50, 49, 49);
+    margin-bottom: 30px;
+}
+
+.designcm-services button {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    background-color: #0E9ECA;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.designcm-services button:hover {
+    background-color: #20002c;
+}
+
+.designcm-application {
+    margin-top: 20px;
+    width: auto;
+    margin: 50px;
+    padding: 40px;
+    background: radial-gradient(circle at 20% 80%, #8e2de283, transparent 50%),
+        radial-gradient(circle at 80% 20%, #4b008283, transparent 50%),
+        linear-gradient(135deg, #20002c, #3a003d);
+    border-radius: 20px 10px 80px 10px;
+}
+
+.designcm-application h2 {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: whitesmoke;
+    margin-bottom: 10px;
+}
+
+.designcm-application p {
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(240, 240, 240);
+    margin-bottom: 30px;
+}
+
+.designcm-application button {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    background-color: #0E9ECA;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.designcm-application button:hover {
+    background-color: #20002c;
+}

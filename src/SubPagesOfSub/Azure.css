@@ -1,0 +1,102 @@
+.azure-container{
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+}
+.azure-main-heading{
+    width: 100%;
+    height: 300px;
+   background:
+    radial-gradient(circle at 20% 80%, #3db2ff55, transparent 55%), /* Azure Soft Blue Glow */
+    radial-gradient(circle at 80% 20%, #00c3ff44, transparent 55%), /* Cyan Cloud Glow */
+    linear-gradient(135deg, #003466, #0059b8); /* Azure Deep Sky Gradient */
+position: relative;
+
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    padding: 80px;
+}
+.azure-main-heading h1{
+    color: #ff9900;
+}
+
+.azure-main-heading p{
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 10px;
+}
+.azure-content{
+    margin-top: 0px;
+    padding: 40px;
+    background-color: #ffffffec;
+}
+.azure-content h1{
+    font-size: 24px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(50, 49, 49);
+    font-weight: bold;
+    text-align: center;
+}
+.azure-content h2{
+    font-size: 26px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(50, 49, 49);
+    margin-top: 20px;
+}
+.azure-content p{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(50, 49, 49);
+}
+
+.azure-partner h1{
+    font-size: 28px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(50, 49, 49);
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.azure-partner h3{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(50, 49, 49);
+    text-align: center;
+}
+.azure-contact{
+    margin-top: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ff9900;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+}
+.azure-contact h2{
+    font-size: 24px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.azure-contact p{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(17, 16, 16);
+    text-align: center;
+}
+.azure-contact button{
+    background-color: white;
+    color: #080808;
+    font-size: 18px;
+    padding: 10px 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

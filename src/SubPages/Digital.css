@@ -1,0 +1,110 @@
+.digital-container{
+    margin-top: 90px;
+}
+.digital-head-one{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: -30px;
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.digital-bg-container{
+    width: 100%;
+  height: 350px;
+  background: linear-gradient(
+    135deg,
+    rgb(14, 37, 68) 0%,
+    rgba(25, 87, 158, 0.664) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  animation: fadeInScale 0.8s ease-out;
+}
+.digital-bg-container h1{
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}
+.digital-bg-container p{
+    font-size: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.digital-cards-container{
+    width: 100%;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.digital-card-web{
+    position: relative;
+    height: 380px;
+    width: 280px;
+    border: 1px solid rgb(184, 182, 182);
+    border-radius: 40px;
+background: linear-gradient(
+    135deg,
+    rgb(26, 111, 121) 0%,
+    rgb(245, 244, 244) 100%
+    
+  );
+box-shadow: 7px 8px 10px 1px rgb(148, 147, 147);
+}
+.digital-card-web svg{
+    position: absolute;
+  top: 10%;
+  left: 35%;
+  opacity: 0.4;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+  color: rgb(20, 19, 19);
+  animation: wave 2s ease-in-out infinite;
+
+}
+@keyframes wave {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+.digital-card-content{
+    position: absolute;
+    top: 53%;
+    text-align: center;
+    padding: 10px;
+}
+.digital-card-content h1{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    margin-top: -50px;
+}
+.digital-card-content p{
+    font-size: 14.5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-style: oblique;
+    font-weight: 500;
+}
+.digital-card-content button{
+    width: 90px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: goldenrod;
+    position: absolute;
+    bottom: -50px;
+    right: 30%;
+    margin: auto;
+}
+.digital-card-content button:hover{
+background-color: rgb(0, 167, 189);}   

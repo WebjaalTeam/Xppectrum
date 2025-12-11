@@ -1,0 +1,168 @@
+.finace-container{
+    margin-top: 90px;
+}
+.finace-header{
+     width: 100%;
+  height: 300px;
+  background: linear-gradient(
+    135deg,
+    rgb(14, 68, 43) 0%,
+    rgba(27, 167, 39, 0.664) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  animation: fadeInScale 0.8s ease-out;
+}
+/* ================================
+      DIGITAL BANKING THEME
+   ================================ */
+
+.banking-services-section {
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+  padding: 60px 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* SUBTITLE */
+.banking-subtitle {
+  font-size: 18px;
+  color: #003B73; /* Corporate Banking Blue */
+  margin-top: 6px;
+}
+
+/* GRID WRAPPER */
+.banking-services-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+/* SERVICE CARD */
+.banking-card {
+  flex: 1 1 calc(33.33% - 40px);
+  min-width: 260px;
+  background: #FFFFFF;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #D6E0EA;
+  text-align: left;
+  box-shadow: 0 4px 14px rgba(0, 54, 102, 0.12);
+  transition: .3s ease;
+}
+
+.banking-card:hover {
+  transform: translateY(-7px);
+  border-color: #0056B3;
+  box-shadow: 0 10px 22px rgba(0, 86, 179, 0.25);
+}
+
+.banking-card h4 {
+  font-size: 17px;
+  color: #0056B3; /* Trustful Banking Blue */
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.banking-card ul {
+  padding-left: 18px;
+  color: #1A1A1A;
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+/* CARD DESCRIPTION */
+.card-desc {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #5A6C7A;
+  line-height: 1.55;
+}
+
+/* WHY CHOOSE US BOX */
+.banking-why-box {
+  background: linear-gradient(135deg, #003B73, #0056B3);
+  color: #FFFFFF;
+  padding: 30px 20px;
+  border-radius: 12px;
+  margin-top: 50px;
+}
+
+.banking-why-box h3 {
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.banking-why-box ul {
+  list-style: none;
+  padding: 0;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+/* EXPERTISE SECTION */
+.banking-expertise-box {
+  margin-top: 30px;
+  padding: 25px 20px;
+  background: #F3F7FC;
+  border-radius: 12px;
+  border-left: 4px solid #0056B3;
+  text-align: left;
+}
+
+.banking-expertise-box h3 {
+  font-size: 20px;
+  color: #003B73;
+  margin-bottom: 10px;
+}
+
+.banking-expertise-box ul {
+  padding-left: 18px;
+  color: #1A1A1A;
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+/* CTA SECTION */
+.banking-cta {
+  margin-top: 40px;
+  background: linear-gradient(135deg, #0056B3, #0074E8);
+  color: #FFFFFF;
+  padding: 40px 20px;
+  border-radius: 12px;
+}
+
+.banking-cta h3 {
+  font-size: 22px;
+}
+
+.banking-btn {
+  margin-top: 15px;
+  padding: 10px 22px;
+  border: none;
+  border-radius: 6px;
+  background: #FFFFFF;
+  color: #003B73;
+  font-weight: 600;
+  cursor: pointer;
+  transition: .3s ease;
+}
+
+.banking-btn:hover {
+  background: #FFC000; /* Gold Trust Color */
+  color: #003B73;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .banking-card { flex: 1 1 calc(50% - 20px); }
+}
+@media (max-width: 480px) {
+  .banking-card { flex: 1 1 100%; }
+}

@@ -1,0 +1,115 @@
+/* ==========================================
+        DATA STRATEGY & INTELLIGENCE THEME
+   ========================================== */
+
+.dataStrategy-section {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding: 60px 20px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 90px;
+}
+
+/* SUBTITLE */
+.dataStrategy-subtitle {
+  font-size: 18px;
+  color: #003B6D; /* Corporate Analytics Blue */
+  margin-top: 6px;
+}
+
+/* GRID WRAPPER */
+.dataStrategy-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 40px;
+  justify-content: center;
+}
+.dataStrategy-grid a{
+text-decoration: none;}
+/* CARD STYLE */
+.dataStrategy-card {
+  flex: 1 1 calc(33.33% - 40px);
+  min-width: 260px;
+  background: #FFFFFF;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #DCE4EF;
+  text-align: left;
+  box-shadow: 0 4px 14px rgba(0, 59, 109, 0.10);
+  transition: .3s ease;
+}
+
+.dataStrategy-card:hover {
+  transform: translateY(-7px);
+  border-color: #0066C4;
+  box-shadow: 0 10px 22px rgba(0, 102, 196, 0.25);
+}
+
+.dataStrategy-card h4 {
+  font-size: 17px;
+  color: #0066C4; /* Strategy Highlight Blue */
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.dataStrategy-card ul {
+  padding-left: 18px;
+  color: #1A1A1A;
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+/* CARD DESCRIPTION */
+.dataStrategy-card .card-desc {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #4E5966;
+  line-height: 1.55;
+}
+
+/* CTA BOX */
+.dataStrategy-cta {
+  margin-top: 50px;
+  background: linear-gradient(135deg, #003B6D, #0066C4);
+  color: #FFFFFF;
+  padding: 40px 20px;
+  border-radius: 12px;
+}
+
+.dataStrategy-cta h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+/* CTA BUTTON */
+.dataStrategy-btn {
+  margin-top: 15px;
+  padding: 10px 22px;
+  border: none;
+  border-radius: 6px;
+  background: #FFFFFF;
+  color: #003B6D;
+  font-weight: 600;
+  cursor: pointer;
+  transition: .3s ease;
+}
+
+.dataStrategy-btn:hover {
+  background: #FFC107; /* Insight Yellow */
+  color: #003B6D;
+}
+
+/* RESPONSIVE GRID */
+@media (max-width: 768px) {
+  .dataStrategy-card {
+    flex: 1 1 calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .dataStrategy-card {
+    flex: 1 1 100%;
+  }
+}

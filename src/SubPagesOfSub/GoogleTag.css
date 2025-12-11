@@ -1,0 +1,143 @@
+/* ==============================
+      GOOGLE TAG MANAGER THEME
+   ============================== */
+
+.gtm-section {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+    margin-top: 90px;
+  font-family: "Poppins", sans-serif;
+}
+
+.gtm-subtitle {
+  font-size: 18px;
+  color: #003B6D;
+  margin-top: 6px;
+}
+
+/* OVERVIEW BLOCKS */
+.gtm-overview {
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.gtm-overview h3 {
+  font-size: 20px;
+  color: #003B6D;
+  margin-bottom: 8px;
+}
+
+.gtm-overview p {
+  color: #444;
+  font-size: 15px;
+  max-width: 850px;
+  margin: auto;
+}
+
+/* GRID */
+.gtm-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 35px;
+  justify-content: center;
+}
+
+/* CARDS */
+.gtm-card {
+  flex: 1 1 calc(33.33% - 40px);
+  min-width: 260px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #DCE4EF;
+  text-align: left;
+  box-shadow: 0 4px 14px rgba(0, 59, 109, 0.1);
+  transition: .3s ease;
+}
+
+.gtm-card:hover {
+  transform: translateY(-7px);
+  border-color: #0066C4;
+  box-shadow: 0 10px 22px rgba(0, 102, 196, 0.25);
+}
+
+.gtm-card h4 {
+  font-size: 17px;
+  color: #0066C4;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.gtm-card ul {
+  padding-left: 18px;
+  font-size: 14px;
+  color: #1A1A1A;
+  line-height: 1.45;
+}
+
+.card-desc {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #4E5966;
+  line-height: 1.55;
+}
+
+/* BENEFITS BOX */
+.gtm-benefits-box {
+  background: linear-gradient(135deg, #003B6D, #0066C4);
+  color: #fff;
+  padding: 30px 20px;
+  border-radius: 12px;
+  margin-top: 50px;
+  text-align: left;
+}
+
+.gtm-benefits-box h3 {
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.gtm-benefits-box ul {
+  padding-left: 18px;
+  list-style: none;
+  line-height: 1.65;
+  font-size: 15px;
+}
+
+/* CTA */
+.gtm-cta {
+  margin-top: 40px;
+  padding: 40px 20px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #0056B3, #0081EA);
+  color: #fff;
+}
+
+.gtm-btn {
+  margin-top: 15px;
+  padding: 10px 22px;
+  border: none;
+  border-radius: 6px;
+  background: #ffffff;
+  color: #003B6D;
+  font-weight: 600;
+  cursor: pointer;
+  transition: .3s ease;
+}
+
+.gtm-btn:hover {
+  background: #FFC107;
+  color: #003B6D;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .gtm-card { flex: 1 1 calc(50% - 20px); }
+}
+
+@media (max-width: 480px) {
+  .gtm-card { flex: 1 1 100%; }
+}

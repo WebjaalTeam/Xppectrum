@@ -1,0 +1,184 @@
+.infra-container{
+    margin-top: 90px;
+}
+.infra-bg-container{
+    width: 100%;
+  height: 400px;
+  background: linear-gradient(
+    135deg,
+    rgb(14, 39, 68) 0%,
+    rgba(27, 64, 167, 0.664) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  animation: fadeInScale 0.8s ease-out;
+}
+.infra-bg-container h1{
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.infra-bg-container p{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.infra-bg-container button{
+    width: 190px;
+    height: 50px;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 16px;
+    border-radius: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.infra-bg-container button:hover{
+    background-color: rgb(216, 186, 109);
+}
+
+.infra-web{
+    padding: 40px;
+    margin-top: 10px;
+}
+.infra-web h1{
+        font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.infra-web p{
+        font-size: 18px;
+        text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+}
+.infra-web ul{
+    margin-top: 10px;
+}
+.infra-web ul li{
+    list-style-type: none;
+    font-size: 18px;
+}
+.infra-clients{
+    margin: 50px;
+    margin-top: -10px;
+    padding:40px ;
+    height: auto;
+    width: 95%;
+    background: linear-gradient(180deg,white,rgb(247, 242, 242));
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;    
+    gap: 20px;
+    border-radius: 10px;
+}
+.infra-head{
+    text-align: center;
+}
+.infra-clients-card{
+    height: 180px;
+    width: 500px;
+    border: 1px solid rgb(206, 205, 205);
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 5px rgb(184, 181, 181);
+    transition: transform 0.3s ease;
+}
+.infra-clients-card:hover{
+        transform: scale(1.05);
+
+}
+.infra-clients-card h1{
+font-size: 20px;
+    color: #000;
+    text-align: center;
+    margin-top: 40px;
+}
+.infra-clients-card p{
+font-size: 12px;
+    color: #000;
+    margin-top: 20px;
+}
+
+.infra-details-conatiner{
+    width: 100%;
+    padding: 50px;
+    
+}
+.infra-details-conatiner h1{
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.infra-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    background: linear-gradient(
+    135deg,
+    rgb(14, 42, 68) 0%,
+    rgba(14, 105, 190, 0.664) 100%
+  );
+}
+.infra-details img{
+    height: 300px;
+    width: 400px;
+}
+.infra-content{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.infra-content h1{
+    font-size: 30px;
+    color: white;
+    margin-top: 40px;
+    text-align: start;
+}
+.infra-content h4{
+    color: whitesmoke;
+    margin-top: 20px;
+}
+.infra-content h6{
+    color: whitesmoke;
+    margin-top: 20px;
+}
+.infra-content button{
+    width: 190px;
+    height: 50px;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 16px;
+    border-radius: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.infra-names{
+    padding: 40px;
+}
+.infra-names h1{
+ text-align: center;
+ font-size: 30px;
+}
+.infra-names p{
+    text-align: center;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.infra-service-cards{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.infra-service-cards h1{
+    width: 700px;
+    height: 65px;
+    box-shadow: 1px 8px 10px 0px black;
+    font-size: 25px;
+    border: 1px solid rgb(109, 109, 109);
+}

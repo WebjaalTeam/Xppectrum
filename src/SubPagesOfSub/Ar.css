@@ -1,0 +1,90 @@
+.ar-container{
+    margin-top: 90px;
+}
+.ar-content{
+     width: 100%;
+    height: 300px;
+   background: 
+    radial-gradient(circle at 20% 80%, #ff99004d, transparent 50%), /* AWS Orange soft glow */
+    radial-gradient(circle at 80% 20%, #4d9ac533, transparent 50%), /* AWS Cloudy Blue glow */
+    linear-gradient(135deg, #232F3E, #1A2732); /* AWS Navy Gradient */
+
+    overflow: hidden;
+    text-align: center;
+    padding: 80px;
+}
+.ar-content h1{
+    color: #ff9900;
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+.ar-services-section {
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+  padding: 60px 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.ar-subtitle {
+  font-size: 18px;
+  color: #333;
+  margin-top: 4px;
+}
+
+.ar-desc {
+  max-width: 760px;
+  margin: 12px auto 40px;
+  color: #555;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.ar-services-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.ar-card {
+  flex: 1 1 calc(33.33% - 40px);
+  min-width: 280px;
+  background: #ffffff;
+  padding: 18px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  border: 1px solid #e5e9f2;
+  text-align: left;
+  transition: .3s ease;
+}
+
+.ar-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 10px 22px rgba(0,0,0,0.12);
+  border-color: #0066ff;
+}
+
+.ar-card h4 {
+  font-size: 17px;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #0033aa;
+}
+
+.ar-card p {
+  font-size: 14px;
+  color: #444;
+  line-height: 1.45;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .ar-card { flex: 1 1 calc(50% - 40px); }
+}
+
+@media (max-width: 480px) {
+  .ar-card { flex: 1 1 100%; }
+}

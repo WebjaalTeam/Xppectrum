@@ -1,0 +1,148 @@
+.webdesign-container{
+    margin-top: 90px;
+}
+.webdesign-content{
+     width: 100%;
+  height: 300px;
+  background: radial-gradient(circle at 20% 70%, #2da9e280, transparent 45%),
+              radial-gradient(circle at 80% 30%, #000cb380, transparent 45%),
+              linear-gradient(135deg, #00141f, #001633);
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  padding: 80px;
+}
+.webdesign-content::after{
+    content: "";
+  position: absolute;
+  width: 250px;
+  height: 600px;
+  background: rgba(255, 255, 255, 0.09);
+  transform: rotate(-20deg);
+  right: 8%;
+  top: -100px;
+  border-radius: 30px;
+    animation: shine 3s infinite;
+}
+.webdesign-content h1{
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: whitesmoke;
+    font-weight: bold;
+}
+.webdesign-content p{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(230, 230, 230);
+    margin-top: 10px;
+}
+
+.webdesign-text{
+    margin-top: 0px;
+    padding: 40px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+.webdesign-text h1{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(20, 19, 19);
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.webdesign-text p{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(50, 49, 49);
+}
+
+.webdesign-cards-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+.webdesign-card{
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.webdesign-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgb(201, 155, 31);
+}
+.webdesign-card h2{
+    font-size: 24px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #333;
+    margin-bottom: 10px;
+}
+.webdesign-card p{
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #666;
+}
+
+
+.webdesign-conclusion{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    gap: 5px;
+}
+.webdesign-conclusion ul{
+    width: 50%;
+}
+.webdesign-conclusion ul h2{
+    font-size: 28px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(20, 19, 19);
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.webdesign-conclusion ul p{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(50, 49, 49);
+    margin-bottom: 10px;
+}
+
+.webdesign-conclusion ul li{
+    list-style-type:none ;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(19, 19, 19); 
+
+}
+.webdesign-conclusion img{
+    width: 50%;
+    height: 450px;
+    margin: 10px;
+}
+
+.unique-design{
+    width: auto;
+    margin: 50px 50px;
+    padding: 30px;
+    background-color: #00141f;
+    border-radius: 10px 20px 10px 20px;
+}
+.unique-design h1{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: whitesmoke;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.unique-design p{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(230, 230, 230);
+    margin-top: 10px;
+}

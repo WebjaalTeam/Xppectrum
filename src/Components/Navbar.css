@@ -1,0 +1,114 @@
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(255, 254, 254);
+    height: 90px;
+    width: 100%;
+    padding: 0 20px;
+    border-bottom: rgb(243, 238, 238) 3px solid;
+    text-decoration: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+.logo-img {
+    height: 90px;
+    width: 100px;
+    border-radius: 50%;
+    mix-blend-mode: multiply;
+    background: transparent;
+    transition: 0.5s ease;
+}
+.hamburger {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.logo-img:hover {
+    transform: scale(1.1);
+}
+.drop-down{
+    width: 20px;
+}
+.nav-links {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.nav-links a {
+    text-decoration: none;
+    color: rgb(121, 115, 115);
+    transition: all 0.3s ease;
+}
+.nav-links a:hover {
+    text-decoration: none;
+    color: rgb(14, 158, 202);
+    transform: scale(1.1);
+}
+
+.contact-number {
+    width: 160px;
+    height: 38px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(14, 158, 202);
+    color: white;
+    font-size: 15.5px;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.contact-number:hover {
+    background-color: rgb(53, 190, 168);
+    transform: scale(1.03);
+}
+
+/* MOBILE NAVIGATION */
+@media (max-width: 768px) {
+    .navbar {
+        justify-content: space-between;
+        padding: 0 15px;
+        width: 100%;
+    }
+    /* SHOW HAMBURGER ON MOBILE */
+    .hamburger {
+        display: block;
+        color: black;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    /* HIDE LINKS BY DEFAULT */
+    .nav-links {
+        display: none;
+    }
+
+    /* WHEN MENU IS OPEN */
+    .nav-links.show {
+        position: absolute;
+        top: 90px; /* below navbar */
+        right: 0;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        background: white;
+        gap: 20px;
+        padding: 20px;
+        align-items: center;
+        border-top: 1px solid #ddd;
+    }
+
+    /* CONTACT BUTTON HIDDEN ON MOBILE (OPTIONAL) */
+    .contact-number {
+        display: none;
+    }
+}

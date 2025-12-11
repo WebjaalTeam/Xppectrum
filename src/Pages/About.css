@@ -1,0 +1,105 @@
+.about-page {
+    margin-top: 130px;
+    min-height: 100vh;
+    width: 100%;
+}
+.about-page h1{
+    text-align: center;
+    margin-bottom: 40px;
+    color: goldenrod;
+    font-family: cursive;
+}
+.about-intro{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 40px;
+    margin-top: -40px;
+}
+.about-intro img{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+/* about-text Container */
+.about-text{
+    flex: 1;
+    font-size: 18px;
+    line-height: 1.6;
+}
+.about-text h1{
+    margin-bottom: 20px;
+    color: rgb(7, 7, 7);
+}
+.about-text p{
+    margin-top: -10px;
+   line-height: 1.5;
+}
+.about-text button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgb(14, 158, 202);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 6px  6px 2px rgb(246, 204, 17);
+    align-self: center;
+}
+
+/* Our-Journey Container */
+.our-journey{
+    width: 100%;
+    padding: 20px;
+    border-radius: 15px;
+    background: #f8fafa;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+.our-journey h1{
+    text-align: center;
+    margin-bottom: 30px;
+    color: goldenrod;
+    font-family: cursive;
+
+}
+.our-journey p{
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: -10px;
+}
+
+/* Our-Culture Container */
+.our-culture{
+    width: 100%;
+    padding: 25px;
+    border-radius: 15px;
+    background: #f8fafa;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    margin-top: 20px;
+}
+.our-culture h1{
+    text-align: center;
+    margin-bottom: 30px;
+    color: goldenrod;
+    font-family: cursive;
+
+}
+.our-culture p{
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: -10px;
+    width: 100%;
+    text-align: center;    
+}
+.our-culture span{
+font-style: italic;
+}
+.purpose-bar-bg h1{
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+}

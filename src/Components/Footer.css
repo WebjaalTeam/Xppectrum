@@ -1,0 +1,157 @@
+.custom-footer {
+  background: #f6f7f8;
+  color: #555;
+  font-family: sans-serif;
+  margin-top: 10px;
+}
+
+/* Top Section */
+.footer-top {
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-top .footer-social a {
+  color: #555;
+  margin-right: 14px;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+.footer-top .footer-social a:hover {
+  color: #0066ff;
+}
+
+/* Middle Section */
+.footer-body {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 40px 50px;
+  gap: 20px;
+}
+
+.footer-col h4 {
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.footer-col p,
+.footer-col a {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #444;
+}
+
+.footer-col a {
+  text-decoration: none;
+  display: block;
+  transition: 0.2s;
+}
+
+.footer-col a:hover {
+  color: #0066ff;
+}
+
+/* Bottom */
+.footer-bottom {
+  text-align: center;
+  padding: 15px;
+  background: rgba(0,0,0,0.05);
+  font-size: 14px;
+}
+
+.footer-brand {
+  margin-left: 6px;
+  font-weight: 600;
+}
+
+/* 📱 Mobile Responsive (max width 768px or choose your break point) */
+
+
+/* ===========================
+ 📱 MOBILE VIEW  (max-width 768px)
+=========================== */
+@media (max-width: 768px) {
+
+  .footer-top {
+    flex-direction: column;
+    text-align: center;
+    gap: 12px;
+  }
+
+  .footer-left {
+    font-size: 12px;
+  }
+
+  .footer-social a {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+
+  /* Change grid → 2 columns */
+  .footer-body {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px 25px;
+    gap: 15px;
+  }
+
+  .footer-col h4 {
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+
+  .footer-col p,
+  .footer-col a {
+    font-size: 11px;
+    line-height: 1.5;
+  }
+
+  /* Reduce icon size inside contact */
+  .footer-col svg {
+    font-size: 12px;
+    margin-right: 6px;
+  }
+
+  .footer-bottom {
+    font-size: 11px;
+    padding: 10px;
+  }
+}
+
+/* ===========================
+ 📱 VERY SMALL DEVICES (max-width 480px)
+=========================== */
+@media (max-width: 480px) {
+
+  .footer-body {
+    grid-template-columns: 1fr; /* 1 column layout */
+    text-align: center;
+    gap: 18px;
+  }
+
+  .footer-col p,
+  .footer-col a {
+    font-size: 10px;
+  }
+
+  .footer-col svg {
+    font-size: 11px;
+  }
+
+  .footer-top {
+    padding: 10px;
+  }
+
+  .footer-top .footer-social a {
+    font-size: 16px;
+  }
+
+  .footer-bottom {
+    font-size: 10px;
+  }
+}

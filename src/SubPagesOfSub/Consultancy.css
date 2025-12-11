@@ -1,0 +1,37 @@
+.consultancy-container{
+    margin-top: 90px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.consultancy-container h1{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.consultancy-container p{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.icon-size{
+    margin-top: 10px;
+    font-size: 40px;
+    margin-bottom: 10px;
+  animation: arrowBounce 1.5s ease-in-out infinite;
+}
+@keyframes arrowBounce {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(10px); }
+}
+.consultancy-container button{
+    width: 220px;
+    height: 100px;
+    border-radius: 5px;
+    background-color: goldenrod;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

@@ -1,0 +1,121 @@
+.realestate-container{
+    margin-top: 90px;
+}
+.realestate-content{
+background: linear-gradient(135deg, #B71C1C, #0C2340);
+    width: 100%;
+    height: 300px;
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.realestate-content h1{
+    color: white;
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+.realestate-content p{
+    color: white;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+}
+
+.realestate-section {
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+  padding: 60px 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.realestate-subtitle {
+  font-size: 18px;
+  color: #0C2340;
+  margin-top: 4px;
+}
+
+.realestate-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 35px;
+  justify-content: center;
+}
+
+.realestate-card {
+  flex: 1 1 calc(33.33% - 40px);
+  min-width: 260px;
+  background: #FAFAFA;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #E2D9CC;
+  text-align: left;
+  box-shadow: 0 4px 15px rgba(12, 35, 64, 0.08);
+  transition: .3s;
+}
+
+.realestate-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 8px 20px rgba(12, 35, 64, 0.18);
+  border-color: #0C2340;
+}
+
+.realestate-card h4 {
+  font-size: 17px;
+  color: #B71C1C;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.realestate-card ul {
+  padding-left: 18px;
+  color: #2B2B2B;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.realestate-cta {
+  background: linear-gradient(135deg, #0C2340, #3CA55C);
+  color: #fff;
+  padding: 35px 20px;
+  border-radius: 12px;
+  margin-top: 50px;
+}
+
+.realestate-cta h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.realestate-cta p {
+  font-size: 15px;
+  opacity: 0.9;
+}
+
+.realestate-btn {
+  margin-top: 18px;
+  padding: 10px 22px;
+  border: none;
+  border-radius: 6px;
+  background: #FFFFFF;
+  color: #0C2340;
+  font-weight: 600;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.realestate-btn:hover {
+  background: #3CA55C;
+  color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .realestate-card { flex: 1 1 calc(50% - 20px); }
+}
+@media (max-width: 480px) {
+  .realestate-card { flex: 1 1 100%; }
+}

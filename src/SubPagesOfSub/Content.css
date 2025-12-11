@@ -1,0 +1,70 @@
+.content-container{
+    margin-top: 90px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-container h1{
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.content-container p{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.icon-size{
+    margin-top: 10px;
+    font-size: 40px;
+    margin-bottom: 10px;
+  animation: arrowBounce 1.5s ease-in-out infinite;
+}
+@keyframes arrowBounce {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(10px); }
+}
+
+.content-descrption{
+    width: 80%;
+    margin-bottom: 20px;    
+}
+
+.benifits-container{
+    width: 80%;
+}
+.benifits-container h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10px;
+}
+.benifit-cards-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+.benifit-cards{
+    width: 250px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 20px;
+     background: linear-gradient(
+  transparent 60%,
+    #25abaf 140%,
+    rgb(250, 250, 249) 100%);
+    
+}
+
+.benifit-cards h1{
+    font-size: 30px;
+}
+.benifit-cards p{
+    font-size: 15px;
+}

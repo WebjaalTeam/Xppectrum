@@ -1,0 +1,137 @@
+.cloudsolutions-container {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cloudsolutions-content {
+    width: 100%;
+    height: 300px;
+    background: radial-gradient(circle at 20% 80%, #2db8e283, transparent 50%),
+        radial-gradient(circle at 80% 20%, #eef7f783, transparent 50%),
+        linear-gradient(135deg, #00252c, #002c3d);
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    padding: 80px;
+}
+
+.cloudsolutions-content h1 {
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.cloudsolutions-content p {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(230, 230, 230);
+    margin-top: 10px;
+}
+
+.cloudsolutions-text {
+    margin-top: 0px;
+    padding: 40px;
+    background-color: #fdfdfd;
+    text-align: center;
+}
+
+.cloudsolutions-text p {
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(50, 49, 49);
+}
+
+.cloudsolutions-content::after {
+    content: "";
+    position: absolute;
+    width: 300px;
+    height: 600px;
+    background: rgba(255, 255, 255, 0.08);
+    transform: rotate(-20deg);
+    top: -100px;
+    right: 10%;
+    border-radius: 30px;
+}
+
+.cloudsolutions-services {
+    margin-top: 20px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+   
+}
+.cloudsolutions-services a{
+    text-decoration: none;
+}
+
+.cloudsolutions-service-card {
+    background-color: #ffffff;
+    box-shadow: 0 10px 8px 4px rgba(0, 0, 0, 0.1);
+
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 350px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    /* important */
+    transition: transform 0.3s ease;
+}
+
+.cloudsolutions-service-card:hover {
+    transform: scale(1.05);
+}
+
+/* Gradient Layer */
+.cloudsolutions-service-card::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: linear-gradient(white 0%,
+            transparent 40%,
+            #ffd700 120%,
+            rgb(250, 250, 249) 100%);
+}
+
+/* Reveal on Hover */
+.cloudsolutions-service-card:hover::after {
+    height: 100%;
+}
+
+.cloudsolutions-service-card h2 {
+    font-size: 24px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(20, 19, 19);
+    margin-bottom: 10px;
+}
+
+.cloudsolutions-service-card p {
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(50, 49, 49);
+}
+
+.cloudsolutions-container button {
+    margin-top: 20px;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+    background-color: #bdca0e;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+   align-items: center;
+}

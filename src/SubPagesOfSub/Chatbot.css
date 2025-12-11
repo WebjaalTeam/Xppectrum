@@ -1,0 +1,150 @@
+.chatbot-container{
+    margin-top: 90px;
+}
+
+.chatbot-bg{
+      width: 100%;
+    height: 300px;
+    background: radial-gradient(circle at 20% 70%, #2da9e280, transparent 45%),
+        radial-gradient(circle at 80% 30%, #000cb380, transparent 45%),
+        linear-gradient(135deg, #00141f, #001633);
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    padding: 80px;
+}
+.chatbot-bg h1{
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: whitesmoke;
+    font-weight: bold;
+}
+.chatbot-bg p{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(230, 230, 230);
+    margin-top: 10px;
+}
+
+.chatbot-content{
+    margin-top: 0px;
+    padding: 40px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+.chatbot-content h1{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(20, 19, 19);
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.chatbot-content p{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(50, 49, 49);
+}
+
+.chatbot-services{
+    padding: 40px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+.chatbot-services h1{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(20, 19, 19);
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.chatbot-services p{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(50, 49, 49);
+}
+
+.chatbot-services-grid{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.chatbot-card-container{
+    width: 250px;
+    height: 300px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.chatbot-card-container img{
+    width: 80px;
+    height: 80px;
+}
+.chatbot-card-container h1{
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(20, 19, 19);
+    margin-top: 15px;
+}
+.chatbot-card-container p{
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(70, 69, 69);
+    margin-top: 10px;
+}
+
+.chatbot-development-services{
+    width: 100%;
+    padding: 40px;
+    background-color: #e0e0e0;
+    text-align: center;
+}
+.chatbot-development-services h1{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(20, 19, 19);
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.chatbot-development-services p{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(50, 49, 49);
+}
+.chatbot-development-cards-container{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.chatbot-development-cards-container div{
+    width: 250px;
+    height: 200px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.chatbot-development-cards-container h1{
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(20, 19, 19);
+    margin-top: 15px;
+}
+.chatbot-development-cards-container p{
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(70, 69, 69);
+    margin-top: 10px;
+}

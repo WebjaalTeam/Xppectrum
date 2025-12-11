@@ -1,0 +1,60 @@
+.search-engine-container{
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.search-main-content{
+    padding: 10px;
+    width: 100%;
+}
+.icon-size{
+    margin-top: 10px;
+    font-size: 40px;
+    margin-bottom: 10px;
+  animation: arrowBounce 1.5s ease-in-out infinite;
+}
+@keyframes arrowBounce {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(10px); }
+}
+.search-main-content h1{
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.search-main-content p{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.search-ads{
+    text-align: center;
+    margin-top: 30px;
+    width: 900px;
+}
+
+.seach-content{
+    display: flex;
+    width: 100%;
+    justify-content: space-around ;
+}
+.search-cards{
+    width: 600px;
+    border: 1px solid rgb(182, 182, 182);
+    padding: 10px;
+}
+.search-cards h1{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.search-cards p{
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.v-line {
+  width: 5px;
+  height: 120px;
+  background: #080808;
+}

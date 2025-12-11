@@ -1,0 +1,121 @@
+/* Main overlay */
+.popup-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  backdrop-filter: blur(4px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Popup Box */
+.popup-box {
+  background: #fff;
+  padding: 30px;
+  min-height: 450px;;
+  width: 650px;
+  border-radius: 15px;
+  animation: scaleIn .3s ease;
+}
+.popup-box span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: goldenrod;
+    font-size: 30px;
+}
+.form-container{
+    display: flex;
+}
+
+
+.popup-box h2 {
+    font-size: 35px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: rgb(7,7,7);
+  font-family: cursive;
+}
+.form-container form{
+    border-radius: 20px;
+    height: 290px;
+    width: 300px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background: linear-gradient(rgb(240, 237, 237) 0%,
+  transparent 50%,
+    #ffd700 120%);
+}
+/* Inputs */
+.popup-box form input,
+.popup-box form select {
+  width: 90%;
+  margin: 8px 0;
+  height: 40px;
+  padding: 8px 12px;
+  font-size: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.popup-box form input:focus,
+.popup-box form select:focus {
+  border-color: rgb(14,158,202);
+}
+
+/* Submit Button */
+.popup-box form button {
+  width: 45%;
+  height: 40px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  background: rgb(240, 83, 44);
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: .3s ease;
+}
+
+.popup-box form button:hover {
+  background: rgb(233, 57, 57);
+}
+
+
+
+
+/* Trigger Button */
+.open-popup-btn {
+  height: 40px;
+  width: 140px;
+  border-radius: 20px;
+  border: none;
+  background: rgb(14,158,202);
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+/* Close X icon */
+.close-x {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #444;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.close-x:hover {
+  color: #f50101;
+}

@@ -1,0 +1,206 @@
+.development-container{
+    margin-top: 90px;
+    background-color: rgb(247, 247, 247);
+}
+.web-bg{
+    width: 100%;
+  height: 400px;
+  background: linear-gradient(
+    135deg,
+    rgba(10, 25, 47, 1) 0%,
+    rgba(0, 123, 255, 0.25) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  animation: fadeInScale 0.8s ease-out;
+}
+@keyframes fadeInScale {
+  0% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.web-bg h1{
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.web-bg p{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.business-bg{
+    text-align: center;
+    padding: 40px;
+}
+.business-bg h1{
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.business-bg p{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+}
+
+.web-cards-container{
+    width: 100%;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.web-card-web{
+    position: relative;
+    height: 360px;
+    width: 280px;
+    border: 1px solid rgb(184, 182, 182);
+    border-radius: 40px;
+background: linear-gradient(
+    135deg,
+    rgba(10, 25, 47, 1) 0%,
+    rgba(7, 224, 224, 0.25) 100%
+    
+  );
+box-shadow: 7px 8px 10px 1px rgb(148, 147, 147);
+}
+.web-card-web svg{
+    position: absolute;
+  top: 10%;
+  left: 25%;
+  opacity: 0.4;
+  transform: translate(-50%, -50%);
+  font-size: 160px;
+  color: rgb(20, 19, 19);
+  animation: wave 2s ease-in-out infinite;
+
+}
+@keyframes wave {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+.web-card-content{
+    position: absolute;
+    top: 53%;
+    text-align: center;
+    padding: 10px;
+}
+.web-card-content h1{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+}
+.web-card-content p{
+    font-size: 14.5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-style: oblique;
+    font-weight: 500;
+}
+.web-card-content button{
+    width: 90px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: goldenrod;
+    margin:10;
+}
+.web-card-content button:hover{
+background-color: rgb(0, 167, 189);}   
+
+
+.sets-us-part{
+    height: auto;
+    width: 100%;
+    padding: 40px;
+    margin-top: -40px;
+}
+.sets-us-part h1{
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.sets-us-part p{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.sets-us-card-container{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.sets-us-card{
+    height: 180px;
+    width: 450px;
+    border: 1px solid rgb(100, 100, 100);
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 5px rgb(184, 181, 181);
+    transition: transform 0.3s ease;
+    margin-top: 20px;
+}
+.sets-us-card:hover{
+        transform: scale(1.05);
+}
+
+.sets-us-card h1{
+    font-size: 30px;
+    color: #312b2b;
+    text-align: center;
+    margin-top: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.sets-us-card p{
+     font-size: 13px;
+    color: #000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.shedule-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #296d6a;
+    height: 200px;
+    color: wheat;
+}
+.shedule-card h1{
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: whitesmoke;
+}
+.shedule-card p{
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+.shedule-card button{
+    width: 150px;
+    height: 40px;
+    background-color: goldenrod;
+    color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 10px;
+}

@@ -1,0 +1,102 @@
+.businessemail-container{
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+}
+.businessemail-main-heading{
+    width: 100%;
+    height: 300px;
+    background:
+    radial-gradient(circle at 20% 80%, #0073aa33, transparent 55%), /* WP Blue Glow */
+    radial-gradient(circle at 80% 20%, #2ea2cc44, transparent 55%), /* Cyan Accent Glow */
+    linear-gradient(135deg, #f7f7f7, #e9eef3); /* Soft WP Background */
+position: relative;
+
+
+    overflow: hidden;
+    text-align: center;
+    padding: 80px;
+}
+.businessemail-main-heading h1{
+    color: #ff9900;
+}
+
+.businessemail-main-heading p{
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 10px;
+}
+.businessemail-content{
+    margin-top: 0px;
+    padding: 40px;
+    background-color: #ffffffec;
+}
+.businessemail-content h1{
+    font-size: 24px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(50, 49, 49);
+    font-weight: bold;
+    text-align: center;
+}
+.businessemail-content h2{
+    font-size: 26px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(50, 49, 49);
+    margin-top: 20px;
+}
+.businessemail-content p{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(50, 49, 49);
+}
+
+.businessemail-partner h1{
+    font-size: 28px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(50, 49, 49);
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.businessemail-partner h3{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(50, 49, 49);
+    text-align: center;
+}
+.businessemail-contact{
+    margin-top: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ff9900;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+}
+.businessemail-contact h2{
+    font-size: 24px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.businessemail-contact p{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(17, 16, 16);
+    text-align: center;
+}
+.businessemail-contact button{
+    background-color: white;
+    color: #080808;
+    font-size: 18px;
+    padding: 10px 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

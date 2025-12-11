@@ -1,0 +1,101 @@
+.linux-container{
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+}
+.linux-main-heading{
+    width: 100%;
+    height: 300px;
+    background:
+    radial-gradient(circle at 25% 75%, #dd481455, transparent 60%),
+    radial-gradient(circle at 75% 25%, #77216fff, transparent 60%),
+    linear-gradient(135deg, #2c001e, #3b0030, #4e003f);
+position: relative;
+
+    overflow: hidden;
+    text-align: center;
+    padding: 80px;
+}
+.linux-main-heading h1{
+    color: #ff9900;
+}
+
+.linux-main-heading p{
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 10px;
+}
+.linux-content{
+    margin-top: 0px;
+    padding: 40px;
+    background-color: #ffffffec;
+}
+.linux-content h1{
+    font-size: 24px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(50, 49, 49);
+    font-weight: bold;
+    text-align: center;
+}
+.linux-content h2{
+    font-size: 26px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(50, 49, 49);
+    margin-top: 20px;
+}
+.linux-content p{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(50, 49, 49);
+}
+
+.linux-partner h1{
+    font-size: 28px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(50, 49, 49);
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.linux-partner h3{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(50, 49, 49);
+    text-align: center;
+}
+.linux-contact{
+    margin-top: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ff9900;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+}
+.linux-contact h2{
+    font-size: 24px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.linux-contact p{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(17, 16, 16);
+    text-align: center;
+}
+.linux-contact button{
+    background-color: white;
+    color: #080808;
+    font-size: 18px;
+    padding: 10px 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

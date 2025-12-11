@@ -1,0 +1,253 @@
+.Ecommerce-container{
+    margin-top: 90px;
+}
+.Ecommerce-bg-container{
+    width: 100%;
+  height: 400px;
+  background: linear-gradient(
+    135deg,
+    rgb(14, 68, 43) 0%,
+    rgba(27, 167, 39, 0.664) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  animation: fadeInScale 0.8s ease-out;
+}
+.Ecommerce-bg-container h1{
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Ecommerce-bg-container p{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Ecommerce-bg-container button{
+    width: 190px;
+    height: 50px;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 16px;
+    border-radius: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Ecommerce-bg-container button:hover{
+    background-color: rgb(216, 186, 109);
+}
+
+.Ecommerce-web{
+    padding: 40px;
+    margin-top: 10px;
+}
+.Ecommerce-web h1{
+        font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.Ecommerce-web p{
+        font-size: 18px;
+        text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+}
+.Ecommerce-web ul{
+    margin-top: 10px;
+}
+.Ecommerce-web ul li{
+    list-style-type: none;
+    font-size: 18px;
+}
+.Ecommerce-clients{
+    margin: 50px;
+    margin-top: -10px;
+    padding:40px ;
+    height: auto;
+    width: 95%;
+    background: linear-gradient(180deg,white,rgb(247, 242, 242));
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;    
+    gap: 20px;
+    border-radius: 10px;
+}
+.Ecommerce-head{
+    text-align: center;
+}
+.Ecommerce-clients-card{
+    height: 180px;
+    width: 500px;
+    border: 1px solid rgb(206, 205, 205);
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 5px rgb(184, 181, 181);
+    transition: transform 0.3s ease;
+}
+.Ecommerce-clients-card:hover{
+        transform: scale(1.05);
+
+}
+.Ecommerce-clients-card h1{
+font-size: 20px;
+    color: #000;
+    text-align: center;
+    margin-top: 40px;
+}
+.Ecommerce-clients-card p{
+font-size: 12px;
+    color: #000;
+    margin-top: 20px;
+}
+
+.Ecommerce-details-conatiner{
+    width: 100%;
+    padding: 50px;
+    
+}
+.Ecommerce-details-conatiner h1{
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.Ecommerce-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    background: linear-gradient(
+    135deg,
+    rgb(31, 68, 14) 0%,
+    rgba(14, 190, 29, 0.664) 100%
+  );
+}
+.Ecommerce-details img{
+    height: 300px;
+    width: 400px;
+}
+.Ecommerce-content{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.Ecommerce-content h1{
+    font-size: 30px;
+    color: white;
+    margin-top: 40px;
+    text-align: start;
+}
+.Ecommerce-content h4{
+    color: whitesmoke;
+    margin-top: 20px;
+}
+.Ecommerce-content h6{
+    color: whitesmoke;
+    margin-top: 20px;
+}
+.Ecommerce-content button{
+    width: 190px;
+    height: 50px;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 16px;
+    border-radius: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Ecommerce-names{
+    padding: 40px;
+}
+.Ecommerce-names h1{
+ text-align: center;
+ font-size: 30px;
+}
+.Ecommerce-names p{
+    text-align: center;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Ecommerce-service-cards{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Ecommerce-service-cards h1{
+    width: 700px;
+    height: 65px;
+    box-shadow: 1px 8px 10px 0px black;
+    font-size: 25px;
+    border: 1px solid rgb(109, 109, 109);
+}
+.Ecommerce-tech-name{
+    width: 100%;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.Ecommerce-tech-names{
+    width: 150px;
+    height: 60px;
+    border: 1px solid gray;
+    box-shadow: 2px 3px 2px 2px rgb(184, 181, 181);
+      animation: updown 2s ease-in-out infinite;
+}
+@keyframes updown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}
+
+.Ecommerce-tech-names h1{
+    font-size: 25px;
+    margin-top: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(14, 129, 129);
+}
+
+.Ecommerce-gallery{
+    width: 100%;
+    background: linear-gradient(
+    135deg,
+    rgb(14, 68, 17) 0%,
+    rgba(14, 190, 29, 0.664) 100%
+  );
+  height: 550px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: -80px;
+}
+.Ecommerce-gallery h1{
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    
+}
+.Ecommerce-gallery p{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: whitesmoke;
+}
+.Ecommerce-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.Ecommerce-img img{
+    height: 400px;
+    width: 380px;
+    border-radius: 15px;
+}
