@@ -30,7 +30,8 @@ function Dashboard() {
                     </button>
 
                 </div>
-                <img src="./public/logo.png" alt="Xppectrum" />
+               <img src="/Xppectrum/logo.png" alt="Xppectrum" />
+
 
             </div>
             <div className="dashboard-bottom-text">
@@ -52,7 +53,7 @@ function Dashboard() {
             </div>
             <div className="about-Xppectrum">
                 <div className="image-container">
-                    <img src="./app.png" alt="Xppectrum" />
+                    <img src="/Xppectrum/app.png" alt="Xppectrum" />
                 </div>
                 <div className="about-text">
                     <h1>We are Creative Tech Enthusiast working since 2018</h1>

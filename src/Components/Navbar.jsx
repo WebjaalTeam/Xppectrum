@@ -8,7 +8,7 @@ function Navbar() {
     const [open,setOpen]=useState(false)
     return (
         <nav className="navbar">
-            <Link to="/"><img src='./public/logo.png' alt='Xppectrum' className='logo-img' /></Link>
+            <Link to="/"><img src='/Xppectrum/logo.png' alt='Xppectrum' className='logo-img' /></Link>
              <div className='hamburger'onClick={()=>setOpen(!open)}>
                 <RxHamburgerMenu/>
                 </div>
