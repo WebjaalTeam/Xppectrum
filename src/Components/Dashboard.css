@@ -86,9 +86,9 @@
 }
 .dashboard-bottom-text h1{
     font-size: 25px;
-    color: rgb(12, 12, 12);
+    color: #363636;
     margin-bottom: 15px;
-    font-family: cursive;
+    font-family:  var(--font-visby-extra-bold), sans-serif;
     font-weight: bold;
 }
 .dashboard-bottom-text p{
@@ -193,7 +193,8 @@ background-color: rgb(221, 209, 42);}
 .about-text h1{
     font-size: 30px;
     font-weight: 700;
-    color: rgb(14, 158, 202);
+    font-family:  var(--font-visby-extra-bold), sans-serif;
+    color: #363636;
     margin-bottom: 20px;
     
 }
@@ -235,11 +236,11 @@ background-color: rgb(221, 209, 42);}
     background: linear-gradient(45deg,#faf8f8,#fafafa);
 }
 .services-overview h1{
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 700;
     color: rgb(14, 158, 202);
     margin-bottom: 20px;
-    font-family: cursive;
+    font-family:  var(--font-visby-extra-bold), sans-serif;
     text-align: center;
 }
 .services-overview p{
@@ -397,7 +398,7 @@ background-color: rgb(221, 209, 42);}
     font-weight: 700;
     color: rgb(14, 158, 202);
     margin-bottom: 20px;
-    font-family: cursive;
+    font-family:  var(--font-visby-extra-bold), sans-serif;
     text-align: center;
     margin-top: -40px;
 } 

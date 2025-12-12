@@ -1,5 +1,6 @@
 import Contact from '../Pages/Contact';
 import { useNavigate } from 'react-router-dom';
+import Footer from '../Components/Footer';
 import './Devops.css'
 function Devops() {
     const navigate=useNavigate()
@@ -106,7 +107,7 @@ function Devops() {
                 </div>
 
             </div>
-
+            <Footer/>
         </div>
     )
 }

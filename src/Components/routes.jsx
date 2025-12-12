@@ -11,7 +11,7 @@ import Development from "../SubPages/Development";
 import Digital from "../SubPages/Digital";
 import DesignCommunication from "../SubPages/DesignCm";
 import CloudSolutions from "../SubPages/CloudSolutions";
-import Devops from "../SubPages/Devops";
+import Devops from "../SubPagesOfSub/Devops";
 import AI from "../SubPages/Ai";
 import DataStrategy from "../SubPages/DataStrategy";
 
@@ -20,6 +20,7 @@ import Mobile from "../SubPagesOfSub/Mobile";
 import Ecommerce from "../SubPagesOfSub/Ecommerce";
 import ProductDevelopment from "../SubPagesOfSub/ProductDvp";
 import Infrastructure from "../SubPagesOfSub/Infrastructure";
+import ApplicationMaintance from "../SubPagesOfSub/ApplicationMaintance"
 import Content from "../SubPagesOfSub/Content";
 import SearchEngine from "../SubPagesOfSub/SearchEngine";
 import SocialMedia from "../SubPagesOfSub/SocialMedia";
@@ -50,8 +51,10 @@ import Strategy from "../SubPagesOfSub/Strategy";
 import AuditAnalytics from "../SubPagesOfSub/AudiAnalytics";
 import GoogleTag from "../SubPagesOfSub/GoogleTag";
 import CentralisedMIS from "../SubPagesOfSub/CentralisedMIS";
-
-
+import Political from "../SubPagesOfSub/Political";
+import Education from "../SubPagesOfSub/Education"
+import Insurence from "../SubPagesOfSub/Insurence";
+import Media from "../SubPagesOfSub/Media";
 
 
 const routes = [
@@ -63,6 +66,7 @@ const routes = [
     {path:"/carrers",element:<Career/>},
     {path:"/contact",element:<Contact/>},
     {path:"/development",element:<Development/>},
+        {path:"/applicationmaintance",element:<ApplicationMaintance/>},
     {path:"/digitaMarketing",element:<Digital/>},
     {path:"/webdevelopment",element:<WebDevelopment/>},
     {path:"/cloudSolutions",element:<CloudSolutions/>},
@@ -104,5 +108,11 @@ const routes = [
     {path:"/auditanalytics",element:<AuditAnalytics/>},
     {path:"/googletag",element:<GoogleTag />},
     {path:"/centralisedmis",element:<CentralisedMIS/>},
+    {path:"/political",element:<Political/>},
+    {path:"/education",element:<Education/>},
+    {path:"/insurence",element:<Insurence/>},
+    {path:"/media",element:<Media/>},
+
+    
 ];
 export default routes;

@@ -1,7 +1,7 @@
-.devops-container{
+.application-container{
     margin-top: 90px;
 }
-.devops-bg-container{
+.application-bg-container{
     width: 100%;
   height: 400px;
   background: linear-gradient(
@@ -16,15 +16,15 @@
   color: white;
   animation: fadeInScale 0.8s ease-out;
 }
-.devops-bg-container h1{
+.application-bg-container h1{
     font-size: 45px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.devops-bg-container p{
+.application-bg-container p{
     font-size: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.devops-bg-container button{
+.application-bg-container button{
     width: 190px;
     height: 50px;
     background-color: whitesmoke;
@@ -33,33 +33,33 @@
     border-radius: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.devops-bg-container button:hover{
+.application-bg-container button:hover{
     background-color: rgb(216, 186, 109);
 }
 
-.devops-web{
+.application-web{
     padding: 40px;
     margin-top: 10px;
 }
-.devops-web h1{
+.application-web h1{
         font-size: 45px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
 }
-.devops-web p{
+.application-web p{
         font-size: 18px;
         text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 10px;
 }
-.devops-web ul{
+.application-web ul{
     margin-top: 10px;
 }
-.devops-web ul li{
+.application-web ul li{
     list-style-type: none;
     font-size: 18px;
 }
-.devops-clients{
+.application-clients{
     margin: 50px;
     margin-top: -10px;
     padding:40px ;
@@ -72,10 +72,10 @@
     gap: 20px;
     border-radius: 10px;
 }
-.devops-head{
+.application-head{
     text-align: center;
 }
-.devops-clients-card{
+.application-clients-card{
     height: 180px;
     width: 500px;
     border: 1px solid rgb(206, 205, 205);
@@ -86,35 +86,34 @@
     box-shadow: 10px 10px 5px 5px rgb(184, 181, 181);
     transition: transform 0.3s ease;
 }
-.devops-clients-card:hover{
+.application-clients-card:hover{
         transform: scale(1.05);
 
 }
-.devops-clients-card h1{
+.application-clients-card h1{
 font-size: 20px;
     color: #000;
     text-align: center;
     margin-top: 40px;
 }
-.devops-clients-card p{
+.application-clients-card p{
 font-size: 12px;
     color: #000;
     margin-top: 20px;
 }
 
-.devops-details-conatiner{
+.application-details-conatiner{
     width: 100%;
     padding: 50px;
     
 }
-.devops-details-conatiner h1{
+.application-details-conatiner h1{
     font-size: 45px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
 }
-.devops-details{
+.application-details{
     display: flex;
-    justify-content: center;
     align-items: center;
     margin-top: 30px;
     background: linear-gradient(
@@ -123,33 +122,30 @@ font-size: 12px;
     rgba(14, 190, 167, 0.664) 100%
   );
 }
-.devops-details img{
+.application-details img{
     height: 300px;
     width: 400px;
-    position: relative;
-    left: -25px;
-    right: 0px;
 }
-.devops-content{
+.application-content{
     display: flex;
     flex-direction: column;
     margin: 10px;
 }
-.devops-content h1{
+.application-content h1{
     font-size: 30px;
     color: white;
     margin-top: 40px;
     text-align: start;
 }
-.devops-content h4{
+.application-content h4{
     color: whitesmoke;
     margin-top: 20px;
 }
-.devops-content h6{
+.application-content h6{
     color: whitesmoke;
     margin-top: 20px;
 }
-.devops-content button{
+.application-content button{
     width: 190px;
     height: 50px;
     background-color: whitesmoke;
@@ -159,33 +155,33 @@ font-size: 12px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.devops-names{
+.application-names{
     padding: 40px;
 }
-.devops-names h1{
+.application-names h1{
  text-align: center;
  font-size: 30px;
 }
-.devops-names p{
+.application-names p{
     text-align: center;
     font-size: 18px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.devops-service-cards{
+.application-service-cards{
     padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.devops-service-cards h1{
+.application-service-cards h1{
     width: 700px;
     height: 65px;
     box-shadow: 1px 8px 10px 0px black;
     font-size: 25px;
     border: 1px solid rgb(109, 109, 109);
 }
-.devops-tech-name{
+.application-tech-name{
     width: 100%;
     display: flex;
     gap: 40px;
@@ -194,7 +190,7 @@ font-size: 12px;
     flex-wrap: wrap;
     margin: 20px;
 }
-.devops-tech-names{
+.application-tech-names{
     width: 150px;
     height: 60px;
     border: 1px solid gray;
@@ -210,47 +206,10 @@ font-size: 12px;
   }
 }
 
-.devops-tech-names h1{
+.application-tech-names h1{
     font-size: 25px;
     margin-top: 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(14, 129, 129);
 }
 
-.devops-gallery{
-    width: 100%;
-    background: linear-gradient(
-    135deg,
-    rgb(14, 68, 61) 0%,
-    rgba(14, 190, 167, 0.664) 100%
-  );
-  height: 750px;
-  border-radius: 10px;
-  padding: 10px;
-  margin-bottom: -80px;
-}
-.devops-gallery h1{
-    font-size: 35px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
-    text-align: center;
-    
-}
-.devops-gallery p{
-    font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-    color: whitesmoke;
-}
-.devops-img{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    
-}
-.devops-img img{
-    height: 600px;
-    width: 380px;
-    border-radius: 15px;
-}

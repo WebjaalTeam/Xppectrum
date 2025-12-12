@@ -43,7 +43,8 @@ function ArtificialIntelligence() {
             </div>
             <div className='artificial-intelligence-Services'>
                 <h1>Our AI and ML Development Services</h1>
-                <h4>AI/ML Strategy Consulting: <span>AI/ML Strategy Consulting: Trust the expertise and deep tech background of the best minds at WebJaal to steer you through the complexities of AI implementation through effective development approaches, strategic advice and ongoing R&D efforts. We are committed to maximizing the value of AI/ML for your business, ensuring sustainable growth in this transformative landscape.
+                <h4>AI/ML Strategy Consulting: <span>AI/ML Strategy Consulting: Trust the expertise and deep tech background of the best minds at Xppectrum
+ to steer you through the complexities of AI implementation through effective development approaches, strategic advice and ongoing R&D efforts. We are committed to maximizing the value of AI/ML for your business, ensuring sustainable growth in this transformative landscape.
                     From robust strategy development, to seamless implementation our experts focus on offering flexibility, and accelerating overall operations.
                 </span></h4>
                 <h4>Domain Based Model Development: <span>Our Machine learning implementation includes developing specific strategic models to excel within a particular industry. By training these models, you can explore insights, make predictions, and solve challenges, with precise custom solutions.</span></h4>
@@ -61,7 +62,8 @@ function ArtificialIntelligence() {
                 </h1>
                 <h4>AI-backed Applications: <span>We craft and implement innovative AI-infused web and mobile applications, and enhance integration with your existing business system. Whether you’re a startup or have established enterprise we aid in identifying your user behavior and deliver personalized solutions.</span></h4>
                 <h4>Data Mining: <span>Utilizing data mining methods, we extract detailed insights from large data sets to assist businesses make informed decisions. With our agile techniques, we transform structured data into actionable intelligence or understandable details to drive better outcomes.</span></h4>
-                <h4>Business Intelligence: <span>By analyzing data patterns and trends in real-times, WebJaal’s Business Intelligence solutions empower organizations to uncover hidden opportunities and mitigate risks effectively via strategic data and planning to optimize business performance.</span></h4>
+                <h4>Business Intelligence: <span>By analyzing data patterns and trends in real-times, Xppectrum
+’s Business Intelligence solutions empower organizations to uncover hidden opportunities and mitigate risks effectively via strategic data and planning to optimize business performance.</span></h4>
                 <h4>Computer Vision: <span>Our artificial intelligence consulting solutions, includes implementing and integrating computer vision based algorithms in order to train AI and automate the process of performing varied tasks like object detection, pattern, facial recognition, and image processing swiftly.</span></h4>
             </div>
             <div className='artificial-intelligence-Services'>

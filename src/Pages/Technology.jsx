@@ -50,7 +50,7 @@ function Technology() {
             <h1>Our Core Technology Services</h1>
             <div className='cards-container'>
                 <div className='tech-cards'>
-                    <img src='/ittech.png' alt='ittech' />
+                    <img src='/Xppectrum/ittech.png' alt='ittech' />
                     <div>
                         <h1>IT Consulting & Strategy</h1>
                         <p>➣ Custom architecture design</p>
@@ -61,7 +61,7 @@ function Technology() {
 
                 </div>
                 <div className='tech-cards'>
-                    <img src='/erpcrm.png' alt='Erp&Crm' />
+                    <img src='/Xppectrum/erpcrm.png' alt='Erp&Crm' />
                     <div>
                         <h1>ERP & CRM Integration</h1>
                         <p>➣ Unified data flow</p>
@@ -72,7 +72,7 @@ function Technology() {
 
                 </div>
                 <div className='tech-cards'>
-                    <img src='/software.png' alt='software' />
+                    <img src='/Xppectrum/software.png' alt='software' />
                     <div>
                         <h1>Software Development</h1>
                         <p>➣ Tailored functionality</p>
@@ -83,7 +83,7 @@ function Technology() {
 
                 </div>
                 <div className='tech-cards'>
-                    <img src='/cloud.png' alt='cloud' />
+                    <img src='/Xppectrum/cloud.png' alt='cloud' />
                     <div>
                         <h1>Cloud Solutions</h1>
                         <p>➣ Enterprise-grade security</p>
@@ -94,7 +94,7 @@ function Technology() {
 
                 </div>
                 <div className='tech-cards'>
-                    <img src='/cybersecurity.png' alt='cyber security' />
+                    <img src='/Xppectrum/cybersecurity.png' alt='cyber security' />
                     <div>
                         <h1>Cybersecurity Services</h1>
                         <p>➣ Proactive risk assessment</p>
@@ -105,7 +105,7 @@ function Technology() {
 
                 </div>
                 <div className='tech-cards'>
-                    <img src='/devops.png' alt='devops' />
+                    <img src='/Xppectrum/devops.png' alt='devops' />
                     <div>
                         <h1>DevOps & Automation</h1>
                         <p>➣ Faster release cycles</p>

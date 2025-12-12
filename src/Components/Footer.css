@@ -1,13 +1,13 @@
 .custom-footer {
-  background: #f6f7f8;
-  color: #555;
+  background: #5c5a5ae1;
+  color: #ffffff;
   font-family: sans-serif;
   margin-top: 10px;
 }
 
 /* Top Section */
 .footer-top {
-  border-bottom: 1px solid rgba(0,0,0,0.1);
+  border-bottom: 1px solid rgba(39, 39, 39, 0.904);
   padding: 15px 30px;
   display: flex;
   justify-content: space-between;
@@ -15,7 +15,7 @@
 }
 
 .footer-top .footer-social a {
-  color: #555;
+  color: #eceaea;
   margin-right: 14px;
   font-size: 16px;
   transition: 0.3s ease;
@@ -44,7 +44,7 @@
 .footer-col a {
   font-size: 14px;
   line-height: 1.8;
-  color: #444;
+  color: #f5f5f5;
 }
 
 .footer-col a {
@@ -54,14 +54,14 @@
 }
 
 .footer-col a:hover {
-  color: #0066ff;
+  color: #ffee00;
 }
 
 /* Bottom */
 .footer-bottom {
   text-align: center;
   padding: 15px;
-  background: rgba(0,0,0,0.05);
+  background: rgba(43, 42, 42, 0.938);
   font-size: 14px;
 }
 

@@ -7,7 +7,8 @@
     text-align: center;
     margin-bottom: 40px;
     color: goldenrod;
-    font-family: cursive;
+    font-family:var(--font-visby-extra-bold), sans-serif;
+;
 }
 .about-intro{
     display: flex;
@@ -55,14 +56,14 @@
     width: 100%;
     padding: 20px;
     border-radius: 15px;
-    background: #f8fafa;
+    background: #ffffff;
     box-shadow: 0 4px 12px rgba(0,0,0,0.06);
 }
 .our-journey h1{
     text-align: center;
     margin-bottom: 30px;
     color: goldenrod;
-    font-family: cursive;
+    font-family: var(--font-visby-extra-bold), sans-serif;
 
 }
 .our-journey p{
@@ -84,7 +85,7 @@
     text-align: center;
     margin-bottom: 30px;
     color: goldenrod;
-    font-family: cursive;
+    font-family: var(--font-visby-extra-bold), sans-serif;
 
 }
 .our-culture p{
@@ -101,5 +102,5 @@ font-style: italic;
     text-align: center;
     margin-bottom: 30px;
     color: rgb(255, 255, 255);
-    font-family: cursive;
+    font-family: var(--font-visby-extra-bold), sans-serif;
 }

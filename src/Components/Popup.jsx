@@ -19,7 +19,7 @@ export default function FormPopup() {
             <h2>Let's Elevate Your Brand
             <span>Get in Touch Today!</span></h2>
             <div className="form-container">
-            <img src='/letsconnect.png' alt='Connect with Xppectrum' style={{height:"260px",width:"260px",marginTop:"-20px"}} />
+            <img src='/Xppectrum//letsconnect.png' alt='Connect with Xppectrum' style={{height:"260px",width:"260px",marginTop:"-20px"}} />
             <form>
               <input type="text" placeholder="Name" />
               <input type="email" placeholder="Email" />

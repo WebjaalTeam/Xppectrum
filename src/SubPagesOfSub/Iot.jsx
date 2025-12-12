@@ -130,9 +130,11 @@ function Iot() {
             <section class="iot-services-section">
 
                 <h2>The Best IoT Development & Consulting Services</h2>
-                <h3 class="subtitle">from Webjaal IT Solutions Company Around India</h3>
+                <h3 class="subtitle">from Xppectrum
+ IT Solutions Company Around India</h3>
                 <p class="desc">
-                    Webjaal delivers numerous next-generation IoT development and consultancy services tailored for modern business needs.
+                    Xppectrum
+ delivers numerous next-generation IoT development and consultancy services tailored for modern business needs.
                 </p>
 
                 <div class="iot-services-grid">
@@ -216,7 +218,8 @@ function Iot() {
                 <h2>IoT Solutions for Diversified Businesses</h2>
                 <h3 class="subtitle">Smart IoT Solutions for Every Industry</h3>
                 <p class="desc">
-                    As a trusted IoT development service provider for global clients, WebJaal assists businesses across multiple sectors
+                    As a trusted IoT development service provider for global clients, Xppectrum
+ assists businesses across multiple sectors
                     with scalable, secure, and intelligent IoT applications. Our portfolio in IoT software development services represents our excellence in these industries:
                 </p>
 

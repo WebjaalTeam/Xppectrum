@@ -1,114 +1,211 @@
+/*******************************
+    HERO SECTION
+*******************************/
+.careers-page {
+  margin-top: 90px;
+}
+
+.careers-hero {
+  background: linear-gradient(135deg, #0e9eca, #3ac6e8);
+  color: #fff;
+  text-align: center;
+  padding: 80px 20px;
+  margin-bottom: 40px;
+}
+
+.careers-hero h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.careers-hero p {
+  max-width: 780px;
+  margin: 10px auto 0;
+  font-size: 18px;
+}
+
+
+
+/*******************************
+    JOB LISTINGS
+*******************************/
 .jobs-container {
-  width: 100%;
-    margin-top: 90px;
-  padding: 20px;
-  font-family: Arial, sans-serif;
-  background: linear-gradient(180deg,rgb(248, 248, 248),white);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto 50px;
+}
+
+.jobs-container h2 {
+  text-align: center;
+  font-size: 32px;
+  color: #0e9eca;
+  margin-bottom: 25px;
 }
 
 .job-card {
-  border: 1px solid #ccc;
-  height: 90px;
-  width: 600px;
-  padding: 15px;
-  margin: 12px 0;
-  border-radius: 12px;
   background: #fff;
-  transition: 0.3s;
-display: flex;
-justify-content: space-between;
-background: transparent;
+  padding: 20px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 12px;
+  border: 1px solid #e3e7eb;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  margin-bottom: 15px;
+  transition: 0.25s ease;
 }
-.job-card h3{
-    font-size: 15px;
-    font-weight: bold;
-    font-family: sans-serif;
-    color: #b14506;
-}
-.job-card p{
-    font-size: 12px;
-    color:rgba(7, 7, 7, 0.952);
-}
+
 .job-card:hover {
-  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  transform: translateY(-4px);
+  box-shadow: 0 10px 22px rgba(0,0,0,0.12);
+}
+
+.job-card h3 {
+  margin: 0 0 5px;
 }
 
 .apply-btn {
-  cursor: pointer;
-  padding: 8px 18px;
-  background: #007bff;
-  width: 100px;
-  height: 40px;
-  border: none;
-  border-radius: 8px;
+  background: #0e9eca;
   color: white;
-  margin-top: 8px;
-}
-.apply-btn:hover {
-  background: #005fcc;
+  padding: 10px 22px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: 0.25s ease;
 }
 
-/* Modal */
+.apply-btn:hover {
+  background: #0b89ae;
+  transform: scale(1.05);
+}
+
+
+
+/*******************************
+    APPLY FORM POPUP
+*******************************/
 .modal-overlay {
   position: fixed;
-  inset: 0;
-  background: rgba(0,0,0,0.4);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.45);
+  backdrop-filter: blur(4px);
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 60px;
+  z-index: 1000;
 }
 
 .modal-box {
   background: #fff;
-  width: 450px;
-  padding: 25px;
-  border-radius: 12px;
+  padding: 30px;
+  width: 420px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  animation: popup 0.3s ease-out;
 }
 
-.modal-box input,
-.modal-box textarea {
+.modal-box h3 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: #0e9eca;
+}
+
+.modal-box form input,
+.modal-box form textarea {
   width: 100%;
-  margin: 8px 0;
-  padding: 10px;
+  padding: 12px;
   border-radius: 8px;
-  border: 1px solid #ccc;
+  border: 1px solid #d8dbe0;
+  margin-bottom: 12px;
+  font-size: 15px;
 }
 
-textarea {
-  height: 80px;
+.modal-box textarea {
+  resize: none;
+  height: 90px;
 }
 
 .modal-actions {
   display: flex;
   justify-content: space-between;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .submit-btn {
-  background: #28a745;
-  color: white;
+  background: #0e9eca;
+  color: #fff;
+  padding: 10px 22px;
   border: none;
-  padding: 10px 18px;
   border-radius: 8px;
   cursor: pointer;
-}
-.submit-btn:hover {
-  background: #1f8a37;
 }
 
 .close-btn {
-  background: #aaa;
-  color: white;
-  padding: 10px 18px;
+  background: #ddd;
+  padding: 10px 22px;
   border: none;
   border-radius: 8px;
   cursor: pointer;
 }
+
 .close-btn:hover {
-  background: #888;
+  background: #ccc;
+}
+
+
+
+/*******************************
+    SUCCESS POPUP
+*******************************/
+.success-popup {
+  background: white;
+  padding: 30px 40px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  animation: popSuccess 0.3s ease-out;
+}
+
+.success-popup h3 {
+  font-size: 22px;
+  color: #0e9eca;
+  margin-bottom: 8px;
+}
+
+.success-popup p {
+  color: #444;
+}
+
+
+
+/*******************************
+    ANIMATIONS
+*******************************/
+@keyframes popup {
+  from { opacity: 0; transform: scale(0.85); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes popSuccess {
+  from { opacity: 0; transform: scale(0.8); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+
+
+/*******************************
+    RESPONSIVE
+*******************************/
+@media (max-width: 600px) {
+  .job-card {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .modal-box {
+    width: 90%;
+  }
 }

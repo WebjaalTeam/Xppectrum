@@ -14,7 +14,7 @@
     z-index: 1000;
 }
 .logo-img {
-    height: 90px;
+    height: 84px;
     width: 100px;
     border-radius: 50%;
     mix-blend-mode: multiply;
@@ -52,6 +52,44 @@
     color: rgb(14, 158, 202);
     transform: scale(1.1);
 }
+/* Make Services look like normal nav text */
+.nav-services-link {
+    cursor: pointer;
+    padding: 0 10px;
+    color: rgb(121, 115, 115);
+    font-size: 18px;
+}
+
+.nav-services-link:hover {
+    color: rgb(14, 158, 202);
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+/* Submenu styling */
+.submenu-title {
+    padding: 8px 12px;
+    display: block;
+    cursor: pointer;
+}
+
+.submenu-link {
+    display: block;
+    padding: 8px 12px;
+    color: #000;
+    text-decoration: none;
+}
+
+.submenu-link:hover {
+    background: #f3f3f3;
+    color: rgb(14, 158, 202);
+}
+
+/* Position fix for submenu */
+.nested-wrapper {
+    position: relative;
+}
+
 
 .contact-number {
     width: 160px;
@@ -71,6 +109,9 @@
     background-color: rgb(53, 190, 168);
     transform: scale(1.03);
 }
+
+
+
 
 /* MOBILE NAVIGATION */
 @media (max-width: 768px) {

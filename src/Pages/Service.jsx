@@ -20,7 +20,7 @@ function Service() {
             <div className='our-capabilities'>
                 <div className='capabilities'>
                     <div>
-                        <img src='/development.png' alt='development' />
+                        <img src='/Xppectrum/development.png' alt='development' />
                     </div>
                     <h1>Development</h1>
                     <p>Building scalable software solutions using modern technologies tailored to business needs.</p>
@@ -28,7 +28,7 @@ function Service() {
                 </div>
                 <div className='capabilities'>
                     <div>
-                        <img src='/digital.png' alt='development' />
+                        <img src='/Xppectrum/digital.png' alt='development' />
                     </div>
                     <h1>Digital Marketing
                     </h1>
@@ -37,7 +37,7 @@ function Service() {
                 </div>
                 <div className='capabilities'>
                     <div>
-                        <img src='/communication.png' alt='development' />
+                        <img src='/Xppectrum/communication.png' alt='development' />
                     </div>
                     <h1>Communication & Design
                     </h1>
@@ -48,7 +48,7 @@ function Service() {
                 </div>
                 <div className='capabilities'>
                     <div>
-                        <img src='/data.png' alt='development' />
+                        <img src='/Xppectrum/data.png' alt='development' />
                     </div>
                     <h1>Data Strategy
                     </h1>
@@ -59,7 +59,7 @@ function Service() {
                 </div>
                 <div className='capabilities'>
                     <div>
-                        <img src='/cloud.png' alt='development' />
+                        <img src='/Xppectrum/cloud.png' alt='development' />
                     </div>
                     <h1>Cloud Solution
                     </h1>
@@ -69,7 +69,7 @@ function Service() {
                 </div>
                 <div className='capabilities'>
                     <div>
-                        <img src='/emerging.png' alt='development' />
+                        <img src='/Xppectrum/emerging.png' alt='development' />
                     </div>
                     <h1>Emerging Technology
                     </h1>

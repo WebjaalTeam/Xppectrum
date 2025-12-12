@@ -1,0 +1,302 @@
+.political-container {
+    margin-top: 90px;
+}
+
+.political-content {
+    width: 100%;
+    background-image: url('https://www.webjaal.com/assets/content_imgs/political_5.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    animation: fadeInScale 0.8s ease-out;
+}
+
+.political-content h1 {
+    font-size: 55px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.political-text {
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.political-text h1 {
+    font-size: 30px;
+}
+
+.political-text p {
+    font-size: 18px;
+    color: black;
+}
+
+.campaign-tabs {
+  display: flex;
+  flex-wrap: wrap;
+justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.campaign-tabs span {
+  padding: 8px 16px;
+  background: #f3f7fa;
+  border: 1px solid #cfd7df;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.campaign-tabs span:hover {
+  background: rgb(14, 158, 202);
+  color: white;
+  border-color: rgb(14, 158, 202);
+  transform: scale(1.05);
+}
+
+
+.political-conclusion{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    gap: 5px;
+}
+.political-conclusion ul{
+    width: 50%;
+}
+.political-conclusion ul h2{
+    font-size: 28px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(20, 19, 19);
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+
+.political-conclusion ul li{
+    list-style-type:none ;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(19, 19, 19); 
+
+}
+.political-conclusion ul li span{
+    font-size: 18px;
+    color: rgb(18, 122, 126);
+}
+.political-conclusion img{
+    width: 50%;
+    height: 350px;
+    margin: 10px;
+    border-radius: 40px;
+}
+.political-campaign-head{
+text-align: center;
+margin-top: 20px;
+}
+.political-campaign-head h1{
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.political-campaign-head p{
+    font-size: 15px;
+}
+
+.campaign-card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 30px;
+
+  width: 100%;   /* keeps layout centered */
+
+  justify-content: center;  /* cards start from the center */
+    align-items: center;
+}
+.campaign-card {
+  background: #ffffff;
+  border: 1px solid #e0e6ed;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.campaign-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+}
+
+.campaign-card h3 {
+  color: #0e9eca;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.campaign-card p {
+  color: #555;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+
+.hero-section {
+  width: 100%;
+  min-height: 85vh;
+  background: linear-gradient(
+      rgba(0, 20, 36, 0.6),
+      rgba(0, 20, 36, 0.6)
+    ),
+    url('/your-hero-image.jpg') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  padding: 60px 8%;
+  color: white;
+}
+
+.hero-content {
+  max-width: 650px;
+}
+
+.hero-section h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.hero-section h2 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: #aadff0;
+}
+
+.hero-section p {
+  font-size: 17px;
+  line-height: 1.7;
+  margin-bottom: 30px;
+  color: #e8f6ff;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.btn-primary {
+  padding: 12px 25px;
+  background: #0e9eca;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn-primary:hover {
+  background: #0c89b0;
+  transform: scale(1.05);
+}
+
+.btn-secondary {
+  padding: 12px 25px;
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
+}
+.choose-section {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.choose-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #0e9eca;
+  margin-bottom: 20px;
+}
+
+.choose-description {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #444;
+  line-height: 1.7;
+  margin-bottom: 40px;
+}
+
+/* Grid for cards */
+.choose-card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+  
+  max-width: 1100px;
+  margin: 0 auto;
+  justify-content: center;
+  justify-items: center;
+}
+
+.choose-card {
+  background: #ffffff;
+  border: 1px solid #e0e6ed;
+  border-radius: 12px;
+  padding: 25px;
+  width: 100%;
+  max-width: 300px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+  transition: 0.25s ease-in-out;
+}
+
+.choose-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+.choose-card h3 {
+  color: #0e9eca;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.choose-card p {
+  color: #555;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 34px;
+  }
+  .hero-section h2 {
+    font-size: 18px;
+  }
+  .hero-buttons {
+    flex-direction: column;
+  }
+  .btn-primary, .btn-secondary {
+    width: 100%;
+  }
+}

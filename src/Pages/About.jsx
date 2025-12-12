@@ -8,7 +8,7 @@ function About() {
     <div className="about-page">
       <h1>Robust Web Applications and Mobile Apps Built for the Future</h1>
       <div className="about-intro">
-        <img src='/logo.png' alt='About Xppectrum' />
+        <img src='/Xppectrum/logo.png' alt='About Xppectrum' />
         < div className="about-text">
           <h1>Who We Are</h1>
           <p>By understanding your most lucrative business lines, and operational provocations, we provide a more sophisticated, data-driven passage way Software, Website, and Application (iOS & Android) Development; UI/UX Design, Technology and Digital Marketing strategies.

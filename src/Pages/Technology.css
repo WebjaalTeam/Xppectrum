@@ -7,9 +7,10 @@
 
 .technology-container h1 {
     font-size: 30px;
-    font-family: cursive;
+    font-family:  var(--font-visby-extra-bold), sans-serif;
     text-align: center;
     margin-bottom: 40px;
+    color: goldenrod;
 }
 
 .cards-container {

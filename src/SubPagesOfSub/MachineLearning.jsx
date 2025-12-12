@@ -36,7 +36,8 @@ function MachineLearning() {
                 <p>
                     AI is a quest we long to reach the epitome of, and ML is a major part of it. In simple words, ML is all about analyzing and implementing patterns learned from machines of daily use, to automate machines of daily chores and more.
 
-                    Webjaal is one of the top machine learning companies and has worked in this technology since it was in its first phase. We have a team of ML developers having expertise in using this technology in a myriad of businesses.
+                    Xppectrum
+ is one of the top machine learning companies and has worked in this technology since it was in its first phase. We have a team of ML developers having expertise in using this technology in a myriad of businesses.
 
                     With hands-on experience in ML, our AI developers help businesses to solve even the most challenging problems by facilitating data-based decision making and implementing new machine learning building blocks.
 
@@ -182,7 +183,8 @@ function MachineLearning() {
                     </div>
                 </div>
                 <div className='ml-services'>
-                    <h1>WHAT MAKES WEBJAAL
+                    <h1>WHAT MAKES Xppectrum
+
                         THE RIGHT CHOICE FOR
                         MACHINE LEARNING DEVELOPMENT
 

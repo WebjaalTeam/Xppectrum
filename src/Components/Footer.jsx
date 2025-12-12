@@ -1,15 +1,15 @@
 import React from "react";
-import { 
-  FaFacebook, 
-  FaGoogle, 
-  FaTwitter , 
-  FaYoutube, 
-  FaInstagram, 
-  FaLinkedin,
-  FaHome,
-  FaEnvelope,
-  FaPhone,
-  FaGlobe
+import {
+    FaFacebook,
+    FaGoogle,
+    FaTwitter,
+    FaYoutube,
+    FaInstagram,
+    FaLinkedin,
+    FaHome,
+    FaEnvelope,
+    FaPhone,
+    FaGlobe
 } from "react-icons/fa";
 
 import "./Footer.css";
@@ -24,12 +24,15 @@ export default function Footer() {
                 </div>
 
                 <div className="footer-social">
-                    <a href="#"><FaFacebook size={20} /></a>
-                    <a href="#"><FaInstagram size={20} /></a>
-                    <a href="#"><FaGoogle size={20} /></a>
-                    <a href="#"><FaYoutube size={20} /></a>
-                    <a href="#"><FaTwitter size={20} /></a>
-                    <a href="#"><FaLinkedin size={20} /></a>
+                    <div className="footer-social">
+                        <a href="#"><FaFacebook size={20} color="#1877F2" /></a>
+                        <a href="#"><FaInstagram size={20} color="#E1306C" /></a>
+                        <a href="#"><FaGoogle size={20} color="#DB4437" /></a>
+                        <a href="#"><FaYoutube size={20} color="#FF0000" /></a>
+                        <a href="#"><FaTwitter size={20} color="#000000" /></a>
+                        <a href="#"><FaLinkedin size={20} color="#0A66C2" /></a>
+                    </div>
+
                 </div>
             </section>
 
@@ -53,7 +56,7 @@ export default function Footer() {
                 </div>
 
                 <div className="footer-col">
-                    <h4>Useful Links</h4>
+                    <h4>Quick Links</h4>
                     <a href="#">Pricing</a>
                     <a href="#">Privacy Policy</a>
                     <a href="#">Documentation</a>

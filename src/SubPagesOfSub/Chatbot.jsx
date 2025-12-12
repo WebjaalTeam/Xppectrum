@@ -18,7 +18,8 @@ function Chatbot() {
                 <p>
                     Chatbots are artificial systems meant to make interactive conversations with the users. Chatbots help the user to get the information they are seeking when a real person is not present at that moment. Most chatbots work upon simple commands, but if you are looking for a custom solution, you have the option to add complex features in it.
 
-                    WebJaal is one of the leading chatbot development companies in the USA, and globally. Here we offer highly advanced chatbot development services, that can be used in multiple industries like e-commerce, customer support, food, etc. We make use of technologies like NLP, AI, and ML, to develop highly advance and smart chatbot solutions for your business. Every business is now moving towards chatbot solutions to extend its support to the users. Our bot development services focus on solving queries of your users in personalized ways.
+                    Xppectrum
+ is one of the leading chatbot development companies in the USA, and globally. Here we offer highly advanced chatbot development services, that can be used in multiple industries like e-commerce, customer support, food, etc. We make use of technologies like NLP, AI, and ML, to develop highly advance and smart chatbot solutions for your business. Every business is now moving towards chatbot solutions to extend its support to the users. Our bot development services focus on solving queries of your users in personalized ways.
 
                     Our chatbot solutions are capable of doing for all tasks one can imagine, even for the most advanced and demanding users. We have a team of highly experienced chatbot developers, who have worked on multiple projects and helped our clients in successfully integrating these solutions into their businesses. Whether you are looking to build smart bots, IVR bots, or online chatbots, our developers will make sure to offer the best services to make your business reach new heights. Chatbots are changing the way how businesses interact with their customers. Chatbots are old technology, but mastering it is still work in progress, and that's for the fact that chatbots are the technology of the future.
                 </p>
@@ -26,7 +27,8 @@ function Chatbot() {
             <div className='chatbot-services'>
                 <h1>OUR CHATBOT DEVELOPMENT SERVICES
                 </h1>
-                <p>As a leading Chatbot development WEBJAAL, we offer multiple bot development services that can be implemented across various industries
+                <p>As a leading Chatbot development Xppectrum
+, we offer multiple bot development services that can be implemented across various industries
 
                 </p>
                 <div className='chatbot-services-grid'>

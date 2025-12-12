@@ -1,0 +1,139 @@
+.insurence-container{
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.insurence-content{
+    width: 100%;
+  height: 300px;
+  background: linear-gradient(
+    135deg,
+    rgb(93, 152, 219) 0%,
+    rgba(63, 86, 151, 0.664) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  color: white;
+  animation: fadeInScale 0.8s ease-out;
+}
+.insurence-content h1{
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+.insurence-content p{
+     font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.insurance-features-section {
+  padding: 60px 20px;
+  background: #fdfdfd;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 32px;
+  color: #0e9eca;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+/* Grid layout */
+.insurance-card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-items: center;
+}
+
+/* Individual Card */
+.insurance-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 14px;
+  border: 1px solid #e1e8ee;
+  width: 100%;
+  max-width: 320px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  transition: 0.25s;
+}
+
+.insurance-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.15);
+}
+
+.insurance-card h3 {
+  color: #0e9eca;
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.insurance-card ul {
+  padding: 0;
+  list-style: none;
+}
+
+.insurance-card ul li {
+  color: #555;
+  font-size: 15px;
+  margin-bottom: 8px;
+  padding-left: 16px;
+  position: relative;
+}
+
+.insurance-card ul li::before {
+  content: "•";
+  color: #0e9eca;
+  position: absolute;
+  left: 0;
+}
+
+.industries-section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.industries-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #0e9eca;
+  margin-bottom: 30px;
+}
+
+/* Grid layout */
+.industries-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Cards */
+.industry-card {
+  background: #ffffff;
+  padding: 22px;
+  border-radius: 10px;
+  border: 1px solid #e3e6eb;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  transition: 0.3s;
+}
+
+.industry-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+.industry-card h3 {
+  font-size: 18px;
+  color: #444;
+  margin: 0;
+}
